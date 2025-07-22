@@ -1,13 +1,13 @@
 package com.fabio.api.forumhub.domain.topico;
 
+import com.fabio.api.forumhub.domain.autor.Autor;
+import com.fabio.api.forumhub.domain.curso.Curso;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.List;
 
 @Entity(name = "Topico")
 @Table(name = "topicos")
