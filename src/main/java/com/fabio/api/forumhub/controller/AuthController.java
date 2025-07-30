@@ -1,5 +1,7 @@
 package com.fabio.api.forumhub.controller;
 
+import com.fabio.api.forumhub.domain.Login;
+import com.fabio.api.forumhub.infra.security.DadosTokenJWT;
 import com.fabio.api.forumhub.usuario.Usuario;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
